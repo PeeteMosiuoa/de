@@ -1,0 +1,67 @@
+/* Root and Grid Styling */
+.root {
+    -fx-background-color: black;
+}
+
+.heading {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.grid-pane {
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.thumbnail {
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Full-Size View Styling */
+.full-view {
+    -fx-background-color: black;
+    -fx-padding: 20px;
+}
+
+.full-view .image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 20, 0, 0, 0);
+}
+
+/* Navigation Controls */
+.controls {
+    -fx-padding: 10px;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
